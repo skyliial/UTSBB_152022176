@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Data Display</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Weather Data</h1>
+    <div id="data-container">
+        <h2>Summary</h2>
+        <p><strong>Max Temperature:</strong> <span id="suhuMax"></span></p>
+        <p><strong>Min Temperature:</strong> <span id="suhuMin"></span></p>
+        <p><strong>Average Temperature:</strong> <span id="suhuRata"></span></p>
+        
+        <h2>Details</h2>
+        <table id="details-table">
+            <thead>
+                <tr>
+                    <th>Idx</th>
+                    <th>Suhu</th>
+                    <th>Humid</th>
+                    <th>Kecerahan</th>
+                    <th>Timestamp</th>
+                </tr>
+            </thead>
+            <tbody id="nilai_suhu_max_humid_max">
+                <!-- Data akan diisi di sini oleh JavaScript -->
+            </tbody>
+        </table>
+        
+        <h2>Month-Year Max</h2>
+        <ul id="month_year_max"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
